@@ -18,6 +18,6 @@ class DemoApplication {
 
     @RequestMapping("/")
     fun home(): String {
-        return "Hello Spring Boot World!"
+        return "Hello World! -- Spring Boot"
     }
 }
